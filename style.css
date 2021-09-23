@@ -1,0 +1,87 @@
+header {
+  background-color:darkgray;
+  height: 90px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+nav {
+  margin: 0 80px;
+  width: 960px;
+}
+nav img {
+  margin-top:10px;
+  float: left;
+  margin-right: 30px;
+}
+
+nav ul {
+  float: left;
+}
+
+nav li {
+  display: inline-block;
+  padding: 20px;
+}
+
+main {
+  padding: 30px;
+  width:960px;
+  margin: 0 auto;
+}
+
+main nav {
+  display:inline-block;
+  margin: 0 auto;
+  width: 100%
+}
+
+main nav img {
+  float: left;
+  width: 33.33%;
+}
+
+main article section * {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+main article img {
+  float: left;
+  display:inline-block;
+  box-sizing: border-box;
+}
+
+main article section {
+  width: 400px;
+  height: 480px;
+  overflow:scroll;
+}
+
+main article section h1 {
+  font: bold;
+}
+
+main article section p {
+  font: italic;
+  overflow: hidden;
+}
+
+button {
+  padding-left: 30px;
+  border-radius: 10px;
+  width: 170px;
+  height: 35px;
+}
+
+button:hover {
+  background-color:steelblue;
+  transition: 350ms;
+}
+
+
+
+footer {
+  width: 100%;
+  background-color: darkgrey;
+}
